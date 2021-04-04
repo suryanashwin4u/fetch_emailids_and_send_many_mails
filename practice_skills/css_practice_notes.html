@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My List and Grid Veiw</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="mystyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="menu" >
+		<ul id="header">	
+		<li id="menu"><a href="#">Home</a></li>
+		<li id="menu"><a href="#">Hotels</a></li>
+		<li id="menu"><a href="#">Travel</a></li>
+		<li id="menu"><a href="#">Restro</a></li>
+		<li id="menu"><a href="#">Holidays</a></li>
+		</ul>
+		
+	</div>
+
+<div class="object">
+
+<div id="filter_table1">
+	
+	<center><h6>Filter</h6></center>
+	&nbsp<input type="checkbox" name="">&nbspExclusive deals
+	<br>
+	&nbsp<input type="checkbox" name="">&nbsplast minute deals
+	<hr>
+	<center><b>Price for 2 nights</b></center>
+	&nbsp<input type="checkbox" name="">&nbspless than Rs 1,000
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspRs 1,001 to 2,000
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspRs 4,001 to 7,000
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspRs 7,001 to 10,000
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspGreater than 10,001
+	<br>
+	<hr>
+	<center><b>Show hotels with</b></center>
+	&nbsp<input type="checkbox" name="">&nbspFree Cancellation
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspFree Wifi
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspClean Wifi
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspYatra Smart
+	<br>
+	&nbsp<input type="checkbox" name="">Couple Friendly
+	<br>
+	&nbsp<input type="checkbox" name="">Yatra Smart
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspFree Breakfast
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspPet Friendly
+	<br>
+	<hr>
+
+</div>
+
+<div class="list">
+<div id="inner_search">
+<p style="margin-left: 30px;"><b>Pick hotel:&nbsp</b></p>
+
+<select>
+	<option>Booking Cost Range:</option>
+	<option>1001 to 2000</option>
+	<option>2001 to 3000</option>
+	<option>3001 to 4000</option>
+	<option>4001 to 5000</option>
+	<option>5001 to 6000</option>
+</select>
+&nbsp
+<select>
+	<option>Services Offered:</option>
+	<option>Free Wifi</option>
+	<option>Free Breakfast</option>
+	<option>Free Swimming Pool</option>
+	<option>Free Parking</option>
+	<option>Free Velvet Parking</option>
+	<option>All in the list</option>
+</select>
+&nbsp
+<select>
+	<option>City:</option>
+	<option>Delhi</option>
+	<option>Chennai</option>
+	<option>Mumbai</option>
+	<option>Hyderabad</option>
+	<option>Goa</option>
+</select>
+
+&nbsp<input type="text" name="" value="Search hotel by name">&nbsp
+<input type="button" name="" value="search" class="btn btn-danger" style="line-height: 10px;">
+</div>
+
+	<div id="list_items">
+
+		<div id="image">
+			<img style="" src="images.jpg">
+		</div>
+
+		<div id="data-direction">
+			<div id="left_data">
+				<ul>
+				<h5><li><i class="fa fa-bed"></i> Resort Terra Paraiso  </li></h5>
+				<li><span></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+
+				</li>
+				<li><i class="fa fa-location-arrow"> </i>&nbspPanaji, Goa</li>
+				<li><i class="fa fa-cutlery"></i>&nbsp Free breakfast &nbsp &nbsp &nbsp<i class="fa fa-wifi"></i>  Free Wifi <br> <i class="fa fa-bath"></i> Swimming Pool &nbsp &nbsp<i class="fa fa-car"></i> Free parking&nbsp</li>
+				<li><i class="fa fa-car"></i>&nbspFree parking &nbsp </li>
+				<!-- <li><span>Cost: </span><i class=""></i>4000 per night</li> -->
+
+
+				</ul>
+			</div>
+			<div id="right_data">
+				<center>
+				<p ><i class="fa fa-inr" style="text-decoration: line-through; font-size: 15px;">5000</i> &nbsp<i class="fa fa-inr" style="font-size: 30px;"><b >4000</b></i> <br>price for 2 nights</p>
+				<input type="button" style="font-weight: bold;" class="btn btn-info btn-danger" value="Book Now" >
+			</p></center>
+			</p>
+			</div>
+
+		</div>
+
+	</div>
+	
+	<div id="list_items">
+		<div id="image">
+			<img style="" src="images.jpg">
+		</div>
+
+		<div id="data-direction">
+			<div id="left_data">
+				<ul>
+				<h5><li><i class="fa fa-bed"></i> Resort Terra Paraiso  </li></h5>
+				<li><span></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+
+				</li>
+				<li><i class="fa fa-location-arrow"> </i>&nbspPanaji, Goa</li>
+				<li><i class="fa fa-cutlery"></i>&nbsp Free breakfast &nbsp &nbsp &nbsp<i class="fa fa-wifi"></i>  Free Wifi <br> <i class="fa fa-bath"></i> Swimming Pool &nbsp &nbsp<i class="fa fa-car"></i> Free parking&nbsp</li>
+				<li><i class="fa fa-car"></i>&nbspFree parking &nbsp </li>
+				<!-- <li><span>Cost: </span><i class=""></i>4000 per night</li> -->
+
+
+				</ul>
+			</div>
+			<div id="right_data">
+				<center>
+				<p ><i class="fa fa-inr" style="text-decoration: line-through; font-size: 15px;">5000</i> &nbsp<i class="fa fa-inr" style="font-size: 30px;"><b >4000</b></i> <br>price for 2 nights</p>
+				<input type="button" style="font-weight: bold;" class="btn btn-info btn-danger" value="Book Now" >
+			</p></center>
+			</p>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div id="list_items">
+		<div id="image">
+			<img style="" src="images.jpg">
+		</div>
+
+		<div id="data-direction">
+			<div id="left_data">
+				<ul>
+				<h5><li><i class="fa fa-bed"></i> Resort Terra Paraiso  </li></h5>
+				<li><span></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+
+				</li>
+				<li><i class="fa fa-location-arrow"> </i>&nbspPanaji, Goa</li>
+				<li><i class="fa fa-cutlery"></i>&nbsp Free breakfast &nbsp &nbsp &nbsp<i class="fa fa-wifi"></i>  Free Wifi <br> <i class="fa fa-bath"></i> Swimming Pool &nbsp &nbsp<i class="fa fa-car"></i> Free parking&nbsp</li>
+				<li><i class="fa fa-car"></i>&nbspFree parking &nbsp </li>
+				<!-- <li><span>Cost: </span><i class=""></i>4000 per night</li> -->
+
+
+				</ul>
+			</div>
+			<div id="right_data">
+				<center>
+				<p ><i class="fa fa-inr" style="text-decoration: line-through; font-size: 15px;">5000</i> &nbsp<i class="fa fa-inr" style="font-size: 30px;"><b >4000</b></i> <br>price for 2 nights</p>
+				<input type="button" style="font-weight: bold;" class="btn btn-info btn-danger" value="Book Now" >
+				</p>
+				</center>
+			</div>
+		</div>
+	</div>
+	<div id="list_items">
+		<div id="image">
+			<img style="" src="images.jpg">
+		</div>
+
+		<div id="data-direction">
+			<div id="left_data">
+				<ul>
+				<h5><li><i class="fa fa-bed"></i> Resort Terra Paraiso  </li></h5>
+				<li><span></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+
+				</li>
+				<li><i class="fa fa-location-arrow"> </i>&nbspPanaji, Goa</li>
+				<li><i class="fa fa-cutlery"></i>&nbsp Free breakfast &nbsp &nbsp &nbsp<i class="fa fa-wifi"></i>  Free Wifi <br> <i class="fa fa-bath"></i> Swimming Pool &nbsp &nbsp<i class="fa fa-car"></i> Free parking&nbsp</li>
+				<li><i class="fa fa-car"></i>&nbspFree parking &nbsp </li>
+				<!-- <li><span>Cost: </span><i class=""></i>4000 per night</li> -->
+
+
+				</ul>
+			</div>
+			<div id="right_data">
+				<center>
+				<p ><i class="fa fa-inr" style="text-decoration: line-through; font-size: 15px;">5000</i> &nbsp<i class="fa fa-inr" style="font-size: 30px;"><b >4000</b></i> <br>price for 2 nights</p>
+				<input type="button" style="font-weight: bold;" class="btn btn-info btn-danger" value="Book Now" >
+				</p>
+				</center>
+			</div>
+		</div>
+	</div>
+
+</div>
+<div id="filter_table2">
+	
+	<center><h6>Filter</h6></center>
+	&nbsp<input type="checkbox" name="">&nbspExclusive deals
+	<br>
+	&nbsp<input type="checkbox" name="">&nbsplast minute deals
+	<hr>
+	<center><b>Price for 2 nights</b></center>
+	&nbsp<input type="checkbox" name="">&nbspless than Rs 1,000
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspRs 1,001 to 2,000
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspRs 4,001 to 7,000
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspRs 7,001 to 10,000
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspGreater than 10,001
+	<br>
+	<hr>
+	<center><b>Show hotels with</b></center>
+	&nbsp<input type="checkbox" name="">&nbspFree Cancellation
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspFree Wifi
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspClean Wifi
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspYatra Smart
+	<br>
+	&nbsp<input type="checkbox" name="">Couple Friendly
+	<br>
+	&nbsp<input type="checkbox" name="">Yatra Smart
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspFree Breakfast
+	<br>
+	&nbsp<input type="checkbox" name="">&nbspPet Friendly
+	<br>
+	<hr>
+
+</div>
+
+</div>
+<div class="pagination" style="margin-left: 40%;">
+<ul style="padding: 10px; display: flex; list-style-type: none;" id="page_points">
+	<li style="border: 2px solid; padding: 6px; margin: auto; font-weight: bold;"><a href="#">Previous</a></li>
+	<li style="border: 2px solid; padding: 6px; margin: auto; font-weight: bold;"><a href="#">1</a></li>
+	<li style="border: 2px solid; padding: 6px; margin: auto; font-weight: bold;"><a href="#">2</a></li>
+	<li style="border: 2px solid; padding: 6px; margin: auto; font-weight: bold;"><a href="#">3</a></li>
+	<li style="border: 2px solid; padding: 6px; margin: auto; font-weight: bold;"><a href="#">4</a></li>
+	<li style="border: 2px solid; padding: 6px; margin: auto; font-weight: bold;"><a href="#">.....</a></li>
+	<li style="border: 2px solid; padding: 6px; margin: auto; font-weight: bold;"><a href="#">Next</a></li>
+</ul>
+</div>
+</div>
+</body>
+</html>
